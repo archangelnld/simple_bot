@@ -1,0 +1,1 @@
+# Simple Bot\n\nEen AI-bot met chat- en scrapingfuncties, gesynced met TransIP Stack.\n\n## Installatie\n1. Clone de repo: `git clone git@github.com:archangelnld/simple_bot.git`\n2. Activeer venv: `source venv/bin/activate`\n3. Run: `./start_menu.sh`\n\n## Functies\n- Optie 8: Update via Git\n- Optie 11: Scrape URLs\n- Sync met Stack
