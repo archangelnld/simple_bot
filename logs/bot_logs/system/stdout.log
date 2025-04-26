@@ -1,0 +1,93 @@
+Creating log structure...
+Rotating logs...
+Syncing to stack storage...
+Creating log structure...
+Rotating logs...
+Syncing to stack storage...
+Creating log structure...
+Rotating logs...
+Syncing to stack storage...
+2025-04-26 17:10:57,074 - Azrael - INFO - Geladen trigger woorden: , dansplaat, triggerwoorden, en meer
+2025-04-26 17:10:57,074 - Azrael - INFO - Geladen URLs: 2
+2025-04-26 17:10:57,074 - Azrael - INFO - Azrael bot gestart!
+2025-04-26 17:10:57,074 - Azrael - DEBUG - Start nieuwe controle cyclus
+2025-04-26 17:10:57,080 - Azrael - INFO - Trigger woorden gevonden: , dansplaat, en meer
+2025-04-26 17:10:57,080 - Azrael - INFO - Dansplaat trigger geactiveerd!
+2025-04-26 17:12:54,276 - Azrael - INFO - Geladen trigger woorden: triggerwoorden, , en meer, dansplaat
+2025-04-26 17:12:54,276 - Azrael - INFO - Geladen URLs: 2
+2025-04-26 17:12:54,276 - Azrael - INFO - Azrael bot gestart!
+2025-04-26 17:12:54,276 - Azrael - DEBUG - Start nieuwe controle cyclus
+2025-04-26 17:12:54,293 - Azrael - INFO - Trigger woorden gevonden: , en meer, dansplaat
+2025-04-26 17:12:54,293 - Azrael - INFO - Dansplaat trigger geactiveerd!
+2025-04-26 17:16:26,534 - Azrael - INFO - Geladen trigger woorden: , en meer, triggerwoorden, dansplaat
+2025-04-26 17:16:26,535 - Azrael - INFO - Geladen URLs: 2
+2025-04-26 17:16:26,535 - Azrael - INFO - Azrael bot gestart!
+2025-04-26 17:16:26,535 - Azrael - DEBUG - Start nieuwe controle cyclus
+2025-04-26 17:16:26,542 - Azrael - INFO - Trigger woorden gevonden: , en meer, dansplaat
+2025-04-26 17:16:26,543 - Azrael - INFO - Dansplaat trigger geactiveerd!
+2025-04-26 17:21:26,709 - Azrael - DEBUG - Start nieuwe controle cyclus
+2025-04-26 17:21:26,714 - Azrael - INFO - Trigger woorden gevonden: , en meer, dansplaat
+2025-04-26 17:21:26,715 - Azrael - INFO - Dansplaat trigger geactiveerd!
+2025-04-26 17:26:26,844 - Azrael - DEBUG - Start nieuwe controle cyclus
+2025-04-26 17:26:26,850 - Azrael - INFO - Trigger woorden gevonden: , en meer, dansplaat
+2025-04-26 17:26:26,850 - Azrael - INFO - Dansplaat trigger geactiveerd!
+2025-04-26 17:31:26,961 - Azrael - DEBUG - Start nieuwe controle cyclus
+2025-04-26 17:31:26,968 - Azrael - INFO - Trigger woorden gevonden: , en meer, dansplaat
+2025-04-26 17:31:26,968 - Azrael - INFO - Dansplaat trigger geactiveerd!
+2025-04-26 17:36:27,124 - Azrael - DEBUG - Start nieuwe controle cyclus
+2025-04-26 17:36:27,134 - Azrael - INFO - Trigger woorden gevonden: , en meer, dansplaat
+2025-04-26 17:36:27,134 - Azrael - INFO - Dansplaat trigger geactiveerd!
+2025-04-26 17:41:27,304 - Azrael - DEBUG - Start nieuwe controle cyclus
+2025-04-26 17:41:27,318 - Azrael - INFO - Trigger woorden gevonden: , en meer, dansplaat
+2025-04-26 17:41:27,318 - Azrael - INFO - Dansplaat trigger geactiveerd!
+2025-04-26 17:46:27,451 - Azrael - DEBUG - Start nieuwe controle cyclus
+2025-04-26 17:46:27,471 - Azrael - INFO - Trigger woorden gevonden: , en meer, dansplaat
+2025-04-26 17:46:27,471 - Azrael - INFO - Dansplaat trigger geactiveerd!
+2025-04-26 17:51:27,667 - Azrael - DEBUG - Start nieuwe controle cyclus
+2025-04-26 17:51:27,694 - Azrael - INFO - Trigger woorden gevonden: , en meer, dansplaat
+2025-04-26 17:51:27,695 - Azrael - INFO - Dansplaat trigger geactiveerd!
+2025-04-26 17:56:27,878 - Azrael - DEBUG - Start nieuwe controle cyclus
+2025-04-26 17:56:27,886 - Azrael - INFO - Trigger woorden gevonden: , en meer, dansplaat
+2025-04-26 17:56:27,886 - Azrael - INFO - Dansplaat trigger geactiveerd!
+2025-04-26 18:01:28,064 - Azrael - DEBUG - Start nieuwe controle cyclus
+2025-04-26 18:01:28,085 - Azrael - INFO - Trigger woorden gevonden: , en meer, dansplaat
+2025-04-26 18:01:28,085 - Azrael - INFO - Dansplaat trigger geactiveerd!
+2025-04-26 18:06:28,261 - Azrael - DEBUG - Start nieuwe controle cyclus
+2025-04-26 18:06:28,268 - Azrael - INFO - Trigger woorden gevonden: , en meer, dansplaat
+2025-04-26 18:06:28,269 - Azrael - INFO - Dansplaat trigger geactiveerd!
+2025-04-26 18:11:28,410 - Azrael - DEBUG - Start nieuwe controle cyclus
+2025-04-26 18:11:28,417 - Azrael - INFO - Trigger woorden gevonden: , en meer, dansplaat
+2025-04-26 18:11:28,418 - Azrael - INFO - Dansplaat trigger geactiveerd!
+2025-04-26 18:16:28,553 - Azrael - DEBUG - Start nieuwe controle cyclus
+2025-04-26 18:16:28,571 - Azrael - INFO - Trigger woorden gevonden: , en meer, dansplaat
+2025-04-26 18:16:28,571 - Azrael - INFO - Dansplaat trigger geactiveerd!
+2025-04-26 18:21:28,720 - Azrael - DEBUG - Start nieuwe controle cyclus
+2025-04-26 18:21:28,819 - Azrael - INFO - Trigger woorden gevonden: , en meer, dansplaat
+2025-04-26 18:21:28,820 - Azrael - INFO - Dansplaat trigger geactiveerd!
+2025-04-26 18:26:28,945 - Azrael - DEBUG - Start nieuwe controle cyclus
+2025-04-26 18:26:28,963 - Azrael - INFO - Trigger woorden gevonden: , en meer, dansplaat
+2025-04-26 18:26:28,964 - Azrael - INFO - Dansplaat trigger geactiveerd!
+2025-04-26 18:31:29,159 - Azrael - DEBUG - Start nieuwe controle cyclus
+2025-04-26 18:31:29,174 - Azrael - INFO - Trigger woorden gevonden: , en meer, dansplaat
+2025-04-26 18:31:29,174 - Azrael - INFO - Dansplaat trigger geactiveerd!
+2025-04-26 18:36:29,406 - Azrael - DEBUG - Start nieuwe controle cyclus
+2025-04-26 18:36:29,442 - Azrael - INFO - Trigger woorden gevonden: , en meer, dansplaat
+2025-04-26 18:36:29,442 - Azrael - INFO - Dansplaat trigger geactiveerd!
+2025-04-26 18:38:34,388 - Azrael - INFO - Geladen trigger woorden: triggerwoorden, dansplaat, en meer, 
+2025-04-26 18:38:34,390 - Azrael - INFO - Geladen URLs: 2
+2025-04-26 18:38:34,390 - Azrael - INFO - Azrael bot gestart!
+2025-04-26 18:38:34,390 - Azrael - DEBUG - Start nieuwe controle cyclus
+2025-04-26 18:38:34,436 - Azrael - INFO - Trigger woorden gevonden: dansplaat, en meer, 
+2025-04-26 18:38:34,437 - Azrael - INFO - Dansplaat trigger geactiveerd!
+2025-04-26 18:43:34,462 - Azrael - DEBUG - Start nieuwe controle cyclus
+2025-04-26 18:43:34,469 - Azrael - INFO - Trigger woorden gevonden: dansplaat, en meer, 
+2025-04-26 18:43:34,469 - Azrael - INFO - Dansplaat trigger geactiveerd!
+2025-04-26 18:48:34,484 - Azrael - DEBUG - Start nieuwe controle cyclus
+2025-04-26 18:48:34,489 - Azrael - INFO - Trigger woorden gevonden: dansplaat, en meer, 
+2025-04-26 18:48:34,489 - Azrael - INFO - Dansplaat trigger geactiveerd!
+2025-04-26 18:53:34,525 - Azrael - DEBUG - Start nieuwe controle cyclus
+2025-04-26 18:53:34,536 - Azrael - INFO - Trigger woorden gevonden: dansplaat, en meer, 
+2025-04-26 18:53:34,537 - Azrael - INFO - Dansplaat trigger geactiveerd!
+2025-04-26 18:58:34,554 - Azrael - DEBUG - Start nieuwe controle cyclus
+2025-04-26 18:58:34,568 - Azrael - INFO - Trigger woorden gevonden: dansplaat, en meer, 
+2025-04-26 18:58:34,568 - Azrael - INFO - Dansplaat trigger geactiveerd!

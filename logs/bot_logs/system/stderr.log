@@ -1,0 +1,51 @@
+chmod: changing permissions of '/home/archangel/projects/simple_bot/logs/bot_logs/system/stderr.log': Operation not permitted
+chmod: changing permissions of '/home/archangel/projects/simple_bot/logs/bot_logs/system/stdout.log': Operation not permitted
+chown: changing ownership of '/home/archangel/projects/simple_bot/logs/bot_logs/system/stderr.log': Operation not permitted
+chown: changing ownership of '/home/archangel/projects/simple_bot/logs/bot_logs/system/stdout.log': Operation not permitted
+Error: unknown flag: --user
+Usage:
+  rclone sync source:path dest:path [flags]
+
+Flags:
+      --create-empty-src-dirs   Create empty source dirs on destination after sync
+  -h, --help                    help for sync
+
+Use "rclone [command] --help" for more information about a command.
+Use "rclone help flags" for to see the global flags.
+Use "rclone help backends" for a list of supported services.
+
+2025/04/26 17:07:44 Fatal error: unknown flag: --user
+chmod: changing permissions of '/home/archangel/projects/simple_bot/logs/bot_logs/system/stderr.log': Operation not permitted
+chmod: changing permissions of '/home/archangel/projects/simple_bot/logs/bot_logs/system/stdout.log': Operation not permitted
+chown: changing ownership of '/home/archangel/projects/simple_bot/logs/bot_logs/system/stderr.log': Operation not permitted
+chown: changing ownership of '/home/archangel/projects/simple_bot/logs/bot_logs/system/stdout.log': Operation not permitted
+Error: unknown flag: --user
+Usage:
+  rclone sync source:path dest:path [flags]
+
+Flags:
+      --create-empty-src-dirs   Create empty source dirs on destination after sync
+  -h, --help                    help for sync
+
+Use "rclone [command] --help" for more information about a command.
+Use "rclone help flags" for to see the global flags.
+Use "rclone help backends" for a list of supported services.
+
+2025/04/26 17:08:14 Fatal error: unknown flag: --user
+chmod: changing permissions of '/home/archangel/projects/simple_bot/logs/bot_logs/system/stderr.log': Operation not permitted
+chmod: changing permissions of '/home/archangel/projects/simple_bot/logs/bot_logs/system/stdout.log': Operation not permitted
+chown: changing ownership of '/home/archangel/projects/simple_bot/logs/bot_logs/system/stderr.log': Operation not permitted
+chown: changing ownership of '/home/archangel/projects/simple_bot/logs/bot_logs/system/stdout.log': Operation not permitted
+Error: unknown flag: --user
+Usage:
+  rclone sync source:path dest:path [flags]
+
+Flags:
+      --create-empty-src-dirs   Create empty source dirs on destination after sync
+  -h, --help                    help for sync
+
+Use "rclone [command] --help" for more information about a command.
+Use "rclone help flags" for to see the global flags.
+Use "rclone help backends" for a list of supported services.
+
+2025/04/26 17:08:44 Fatal error: unknown flag: --user

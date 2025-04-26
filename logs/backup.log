@@ -1,0 +1,11 @@
+/home/archangel/projects/simple_bot/backup.sh: line 5: rsync: command not found
+Welcome to the STACK SFTP server, use username <stack-username>@<stack-domain> to connect
+>Connected to sftp.stack.storage.
+sftp> mkdir BotLogs
+remote mkdir "/BotLogs": Failure
+sftp> mkdir BotLogs/backups
+remote mkdir "/BotLogs/backups": Failure
+sftp> put /home/archangel/backup/simple_bot_20250424_020001.tar.gz BotLogs/backups/simple_bot_20250424_020001.tar.gz
+Uploading /home/archangel/backup/simple_bot_20250424_020001.tar.gz to /BotLogs/backups/simple_bot_20250424_020001.tar.gz
+sftp> bye
+Backup geüpload naar TransIP STACK: BotLogs/backups/simple_bot_20250424_020001.tar.gz

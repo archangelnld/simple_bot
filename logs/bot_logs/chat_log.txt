@@ -1,0 +1,35 @@
+[2025-04-21 14:27:25] dansplaat
+[2025-04-21 14:48:28] dansplaat
+[2025-04-21 14:49:07] 
+[2025-04-21 14:49:16] archangel@azrael:~$ /home/archangel/projects/simple_bot/start_menu.sh
+[2025-04-21 14:49:17] === AI Bot & Proxy Start Menu ===
+[2025-04-21 14:49:18] Datume: 20 april 2025
+[2025-04-21 14:49:18] Locale: /home/archangel/projects/simple_bot
+[2025-04-21 14:49:19] 
+[2025-04-21 14:49:20] 1. Start Squid Proxy
+[2025-04-21 14:49:20] 2. Start AI Bot (simple_chat.py)
+[2025-04-21 14:49:21] 3. Controller Squid Status
+[2025-04-21 14:54:29] dansplaat
+[2025-04-21 14:55:10] 
+[2025-04-21 15:07:42] dansplaat
+[2025-04-21 15:13:56] dansplaat
+[2025-04-21 15:29:23] /list_stack_dirs
+[2025-04-21 15:35:38] /home/archangel/projects/simple_bot/start_menu.sh
+[2025-04-21 15:35:58] archangel@azrael:~$ /home/archangel/projects/simple_bot/start_menu.sh
+[2025-04-21 15:35:58] === AI Bot & Proxy Start Menu ===
+[2025-04-21 15:35:59] Datume: 20 april 2025
+[2025-04-21 15:36:01] Locale: /home/archangel/projects/simple_bot
+[2025-04-21 15:36:02] 
+[2025-04-21 15:36:03] 1. Start Squid Proxy
+[2025-04-21 15:46:25] /list_stack_dirs
+[2025-04-26 22:40:40] geen
+[2025-04-26 22:40:54] hallo azrael
+[2025-04-26 22:42:06] hallo azrael
+[2025-04-26 22:42:48] dansplaat
+[2025-04-26 22:43:35] cd /home/archangel/projects/simple_bot
+[2025-04-26 22:43:54] leer: hallo azrael | Hoi, ik ben Azrael, klaar om te helpen!
+[2025-04-26 22:44:28] cd /home/archangel/projects/simple_bot
+[2025-04-26 22:45:02] hallo azrael
+[2025-04-26 22:45:09] 
+[2025-04-26 22:45:58] test
+[2025-04-26 22:46:48] exit

@@ -1,0 +1,83 @@
+{
+    "urls": {
+        "chat_urls": [
+            "https://chat.openai.com",
+            "https://claude.ai",
+            "https://bard.google.com"
+        ],
+        "learning_urls": [
+            "https://raw.githubusercontent.com/OpenTaal/opentaal-wordlist/master/words.txt",
+            "https://raw.githubusercontent.com/OpenTaal/opentaal-wordlist/master/basiswoorden-gekeurd.txt"
+        ],
+        "backup_urls": [
+            "https://world2you.stack.storage",
+            "https://drive.example.com/backup"
+        ]
+    },
+    "stack": {
+        "username": "world2you@world2you.stack.storage",
+        "key": "zgmWEYKgsCfjGVPgk7jYpiQUFqs",
+        "server": "world2you.stack.storage",
+        "base_path": "Azrael3.0"
+    },
+    "triggers": {
+        "dansplaat": {
+            "action": "play_music",
+            "responses": [
+                "Tijd voor een dansje!",
+                "Let's get this party started!",
+                "Dance time!"
+            ]
+        },
+        "leren": {
+            "action": "start_learning",
+            "responses": [
+                "Ik ga nieuwe dingen leren!",
+                "Tijd om te groeien!",
+                "Leermoment!"
+            ]
+        }
+    },
+    "paths": {
+        "base_dir": "/home/archangel/projects/simple_bot",
+        "log_dir": "logs/bot_logs",
+        "data_dir": "data",
+        "backup_dir": "backups",
+        "system_logs": "logs/bot_logs/system",
+        "learning_logs": "logs/bot_logs/learning",
+        "interaction_logs": "logs/bot_logs/interactions",
+        "error_logs": "logs/bot_logs/errors"
+    },
+    "settings": {
+        "check_interval": 300,
+        "max_retries": 3,
+        "log_rotation_size": 1048576,
+        "log_backup_count": 5,
+        "scrape_cooldown": 3600,
+        "editor": {
+            "default": "nano",
+            "mobaxterm_enabled": true,
+            "mobaxterm_path": "/usr/bin/mcedit",
+            "fallback": "nano"
+        }
+    },
+    "service": {
+        "name": "azrael-learn",
+        "description": "Azrael Continuous Learning Service",
+        "user": "archangel",
+        "group": "archangel",
+        "memory_limit": "1G",
+        "cpu_quota": "200%",
+        "restart_sec": 30,
+        "start_limit_interval": 300,
+        "start_limit_burst": 3
+    },
+    "logging": {
+        "rotation_interval": "1d",
+        "max_size": "100M",
+        "compression": true,
+        "retention_days": 30,
+        "sync_interval": 14400
+    }
+}
+

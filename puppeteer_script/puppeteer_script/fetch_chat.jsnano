@@ -1,0 +1,36 @@
+const puppeteer = require('puppeteer');
+const fs = require('fs');
+
+(async () => {
+  let browser = null;
+  try {
+    browser = await puppeteer.launch({
+      headless: true,
+      args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-blink-features=AutomationControlled']
+    });
+    const page = await browser.newPage();
+    await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/91.0.4472.124');
+    await page.setExtraHTTPHeaders({
+      'Referer': 'https://x.com',
+      'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+      'Accept-Language': 'en-US,en;q=0.5'
+    });
+    await page.setCookie({ name: 'auth_token', value: 'YOUR_NEW_AUTH_TOKEN', domain: '.x.com' });
+    await page.setCookie({ name: 'ct0', value: 'YOUR_NEW_CT0_TOKEN', domain: '.x.com' });
+    await page.goto('https://x.com', { waitUntil: 'networkidle2', timeout: 60000 });
+    await page.goto('https://x.com/i/grok?conversation=1896580309220503632', { waitUntil: 'networkidle2', timeout: 60000 });
+    await page.evaluate(() => { window.navigator.webdriver = false; });
+    await page.evaluate(() => new Promise(resolve => setTimeout(resolve, 5000)));
+    const chatContent = await page.evaluate(() => {
+      let messages = document.querySelectorAll('.message');
+      if (!messages.length) messages = document.querySelectorAll('[data-testid="message"]');
+      return messages.length ? Array.from(messages).map(msg => msg.innerText).join('\n') : document.body.innerText;
+    });
+    console.log('Chat:', chatContent);
+    fs.writeFileSync('chat_history.txt', chatContent);
+    await browser.close();
+  } catch (error) {
+    console.error('Fout bij het ophalen van de chat:', error);
+    if (browser) await browser.close();
+  }
+})();

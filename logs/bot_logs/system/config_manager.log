@@ -1,0 +1,486 @@
+2025-04-26 18:06:05,447 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 18:06:05,447 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 18:06:05,447 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 18:06:05,447 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 18:06:05,447 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 18:06:05,447 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 18:06:05,447 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 18:06:05,447 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 18:06:05,447 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 18:06:05,448 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 18:06:05,448 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 18:06:05,448 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 18:06:05,448 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 18:06:05,448 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 18:06:05,448 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 18:06:05,448 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 18:06:05,448 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 18:06:05,448 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 18:06:05,448 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 18:06:05,448 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 18:06:05,448 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 18:06:05,448 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 18:06:05,448 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 18:06:05,448 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 18:08:48,644 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 18:08:48,644 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 18:08:48,645 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 18:08:48,645 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 18:08:48,645 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 18:08:48,645 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 18:08:48,645 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 18:08:48,645 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 18:08:48,645 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 18:08:48,645 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 18:08:48,645 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 18:08:48,645 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 18:08:48,645 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 18:08:48,645 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 18:08:48,646 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 18:08:48,646 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 18:08:48,646 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 18:08:48,646 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 18:08:48,646 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 18:08:48,646 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 18:08:48,646 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 18:08:48,646 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 18:08:48,646 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 18:08:48,646 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 18:14:09,266 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 18:14:09,267 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 18:14:09,267 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 18:14:09,267 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 18:14:09,267 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 18:14:09,267 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 18:14:09,267 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 18:14:09,267 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 18:14:09,267 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 18:14:09,267 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 18:14:09,267 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 18:14:09,267 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 18:14:09,267 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 18:14:09,267 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 18:14:09,267 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 18:14:09,267 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 18:14:09,267 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 18:14:09,267 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 18:14:09,267 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 18:14:09,267 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 18:14:09,267 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 18:14:09,268 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 18:14:09,268 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 18:14:09,268 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 18:16:27,067 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 18:16:27,067 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 18:16:27,067 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 18:16:27,067 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 18:16:27,068 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 18:16:27,068 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 18:16:27,068 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 18:16:27,068 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 18:16:27,068 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 18:16:27,068 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 18:16:27,068 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 18:16:27,068 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 18:16:27,068 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 18:16:27,068 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 18:16:27,068 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 18:16:27,068 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 18:16:27,069 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 18:16:27,069 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 18:16:27,069 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 18:16:27,069 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 18:16:27,069 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 18:16:27,069 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 18:16:27,069 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 18:16:27,069 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 18:23:15,699 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 18:23:15,699 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 18:23:15,699 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 18:23:15,699 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 18:23:15,699 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 18:23:15,699 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 18:23:15,699 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 18:23:15,699 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 18:27:05,336 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 18:27:05,336 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 18:27:05,336 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 18:27:05,336 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 18:27:05,336 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 18:27:05,336 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 18:27:05,336 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 18:27:05,336 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 18:27:05,336 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 18:27:05,336 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 18:27:05,336 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 18:27:05,336 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 18:27:05,336 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 18:27:05,336 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 18:27:05,337 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 18:27:05,337 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 18:27:32,908 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 18:27:32,908 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 18:27:32,908 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 18:27:32,908 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 18:27:32,908 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 18:27:32,908 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 18:27:32,908 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 18:27:32,908 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 18:27:32,908 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 18:27:32,908 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 18:27:32,908 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 18:27:32,908 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 18:27:32,908 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 18:27:32,908 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 18:27:32,908 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 18:27:32,908 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 18:30:36,911 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 18:30:36,911 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 18:30:36,911 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 18:30:36,911 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 18:30:36,912 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 18:30:36,912 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 18:30:36,912 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 18:30:36,912 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 18:31:36,447 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 18:31:36,448 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 18:31:36,448 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 18:31:36,448 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 18:31:36,448 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 18:31:36,448 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 18:31:36,448 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 18:31:36,448 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 18:31:55,141 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 18:31:55,142 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 18:31:55,142 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 18:31:55,142 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 18:31:55,142 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 18:31:55,142 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 18:31:55,142 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 18:31:55,142 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 18:35:09,044 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 18:35:09,045 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 18:35:09,045 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 18:35:09,045 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 18:35:09,045 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 18:35:09,045 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 18:35:09,045 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 18:35:09,045 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 18:35:09,045 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 18:35:09,045 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 18:35:09,045 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 18:35:09,045 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 18:35:09,045 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 18:35:09,045 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 18:35:09,045 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 18:35:09,045 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 18:44:34,985 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 18:44:34,987 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 18:44:34,987 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 18:44:34,987 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 18:44:34,987 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 18:44:34,987 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 18:44:34,987 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 18:44:34,987 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 18:45:08,219 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 18:45:08,219 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 18:45:08,219 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 18:45:08,219 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 18:45:08,219 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 18:45:08,219 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 18:45:08,219 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 18:45:08,219 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 18:46:19,201 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 18:46:19,202 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 18:46:19,202 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 18:46:19,202 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 18:46:19,202 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 18:46:19,202 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 18:46:19,202 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 18:46:19,202 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 18:51:30,414 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 18:51:30,414 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 18:51:30,414 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 18:51:30,414 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 18:51:30,414 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 18:51:30,414 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 18:51:30,414 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 18:51:30,415 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 18:51:30,415 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 18:51:30,415 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 18:51:30,415 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 18:51:30,415 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 18:51:30,415 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 18:51:30,415 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 18:51:30,415 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 18:51:30,415 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 19:13:37,842 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 19:13:37,842 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 19:13:37,842 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 19:13:37,842 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 19:13:37,842 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 19:13:37,842 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 19:13:37,843 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 19:13:37,843 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 19:13:37,843 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 19:13:37,843 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 19:13:37,843 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 19:13:37,843 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 19:13:37,843 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 19:13:37,843 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 19:13:37,843 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 19:13:37,843 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 19:24:41,434 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 19:24:41,434 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 19:24:41,434 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 19:24:41,434 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 19:24:41,434 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 19:24:41,434 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 19:24:41,434 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 19:24:41,434 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 19:24:41,435 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 19:24:41,435 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 19:24:41,435 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 19:24:41,435 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 19:24:41,435 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 19:24:41,435 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 19:24:41,435 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 19:24:41,435 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 19:31:29,218 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 19:31:29,218 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 19:31:29,218 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 19:31:29,218 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 19:31:29,218 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 19:31:29,218 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 19:31:29,218 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 19:31:29,218 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 19:31:29,218 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 19:31:29,218 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 19:31:29,218 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 19:31:29,218 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 19:31:29,219 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 19:31:29,219 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 19:31:29,219 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 19:31:29,219 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 19:38:07,444 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 19:38:07,444 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 19:38:07,445 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 19:38:07,445 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 19:38:07,445 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 19:38:07,445 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 19:38:07,445 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 19:38:07,445 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 19:38:07,445 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 19:38:07,445 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 19:38:07,445 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 19:38:07,445 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 19:38:07,445 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 19:38:07,445 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 19:38:07,445 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 19:38:07,445 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 19:38:07,445 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 19:38:07,445 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 19:38:07,445 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 19:38:07,445 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 19:38:07,445 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 19:38:07,445 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 19:38:07,446 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 19:38:07,446 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 19:59:29,799 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 19:59:29,800 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 19:59:29,800 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 19:59:29,800 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 19:59:29,800 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 19:59:29,800 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 19:59:29,800 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 19:59:29,800 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 20:08:02,719 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 20:08:02,719 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 20:08:02,719 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 20:08:02,719 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 20:08:02,719 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 20:08:02,719 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 20:08:02,719 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 20:08:02,719 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 20:16:51,668 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 20:16:51,668 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 20:16:51,668 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 20:16:51,668 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 20:16:51,668 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 20:16:51,668 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 20:16:51,668 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 20:16:51,668 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 20:16:51,669 - StackManager - INFO - Rclone configuration updated
+2025-04-26 20:16:51,941 - StackManager - ERROR - Rclone command failed: rclone about stack:, Error: 2025/04/26 20:16:51 Failed to about: about call failed: <html>
+<head><title>405 Not Allowed</title></head>
+<body>
+<center><h1>405 Not Allowed</h1></center>
+<hr><center>nginx/1.26.3</center>
+</body>
+</html>: 405 Not Allowed
+
+2025-04-26 20:23:58,892 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 20:23:58,892 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 20:23:58,892 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 20:23:58,892 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 20:23:58,892 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 20:23:58,892 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 20:23:58,892 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 20:23:58,892 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 20:23:58,893 - StackManager - INFO - Rclone Stack Storage SFTP configuration updated
+2025-04-26 20:24:10,498 - StackManager - ERROR - Rclone command failed: rclone lsf stack: --sftp-chunk-size 131072 --transfers 256 --checkers 32, Error: 2025/04/26 20:24:10 Failed to create file system for "stack:": NewFs: couldn't connect SSH: ssh: handshake failed: ssh: unable to authenticate, attempted methods [none password], no supported methods remain
+
+2025-04-26 20:27:59,351 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 20:27:59,351 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 20:27:59,351 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 20:27:59,351 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 20:27:59,351 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 20:27:59,351 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 20:27:59,351 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 20:27:59,351 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 20:27:59,352 - StackManager - INFO - Rclone Stack Storage SFTP configuration updated
+2025-04-26 20:28:10,953 - StackManager - ERROR - Rclone command failed: rclone lsf stack:, Error: 2025/04/26 20:28:10 Failed to create file system for "stack:": NewFs: couldn't connect SSH: ssh: handshake failed: ssh: unable to authenticate, attempted methods [none password], no supported methods remain
+
+2025-04-26 20:33:45,339 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 20:33:45,339 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 20:33:45,339 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 20:33:45,339 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 20:33:45,339 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 20:33:45,339 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 20:33:45,339 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 20:33:45,339 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 20:33:45,340 - StackManager - INFO - Rclone Stack Storage SFTP configuration updated
+2025-04-26 20:33:45,340 - StackManager - INFO - Created config:
+[stack]
+type = sftp
+host = world2you.stack.storage
+user = world2you@world2you.stack.storage
+pass = ***
+port = 22
+ask_password = false
+key_file =
+key_use_agent = false
+use_insecure_cipher = false
+md5sum_command = none
+sha1sum_command = none
+shell_type = unix
+disable_hashcheck = true
+2025-04-26 20:33:56,947 - StackManager - ERROR - Rclone command failed: rclone lsf stack:, Error: 2025/04/26 20:33:56 Failed to create file system for "stack:": NewFs: couldn't connect SSH: ssh: handshake failed: ssh: unable to authenticate, attempted methods [none password], no supported methods remain
+
+2025-04-26 20:57:45,558 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 20:57:45,558 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 20:57:45,558 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 20:57:45,558 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 20:57:45,558 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 20:57:45,558 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 20:57:45,558 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 20:57:45,558 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 20:57:45,559 - StackManager - INFO - Rclone Stack Storage SFTP configuration updated
+2025-04-26 20:57:45,559 - StackManager - INFO - Created config:
+[stack]
+type = sftp
+host = world2you.stack.storage
+user = world2you@world2you.stack.storage
+pass = ***
+port = 22
+ask_password = false
+key_file =
+key_use_agent = false
+use_insecure_cipher = false
+md5sum_command = none
+sha1sum_command = none
+shell_type = unix
+disable_hashcheck = true
+2025-04-26 20:57:57,162 - StackManager - ERROR - Rclone command failed: rclone lsf stack:, Error: 2025/04/26 20:57:57 Failed to create file system for "stack:": NewFs: couldn't connect SSH: ssh: handshake failed: ssh: unable to authenticate, attempted methods [none password], no supported methods remain
+
+2025-04-26 21:00:15,293 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 21:00:15,293 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 21:00:15,293 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 21:00:15,293 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 21:00:15,294 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 21:00:15,294 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 21:00:15,294 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 21:00:15,294 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 21:00:15,294 - StackManager - INFO - Rclone Stack Storage SFTP configuration updated
+2025-04-26 21:00:15,294 - StackManager - INFO - Created config:
+[stack]
+type = sftp
+host = world2you.stack.storage
+user = world2you@world2you.stack.storage
+pass = ***
+port = 22
+ask_password = false
+key_file =
+key_use_agent = false
+use_insecure_cipher = false
+md5sum_command = none
+sha1sum_command = none
+shell_type = unix
+disable_hashcheck = true
+2025-04-26 21:00:26,824 - StackManager - ERROR - Rclone command failed: rclone lsf stack:, Error: 2025/04/26 21:00:26 Failed to create file system for "stack:": NewFs: couldn't connect SSH: ssh: handshake failed: ssh: unable to authenticate, attempted methods [none password], no supported methods remain
+
+2025-04-26 22:01:30,339 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 22:01:30,340 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 22:01:30,340 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 22:01:30,340 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 22:01:30,340 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 22:01:30,340 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 22:01:30,340 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 22:01:30,340 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 22:02:54,147 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 22:02:54,147 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 22:02:54,147 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 22:02:54,147 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 22:02:54,147 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 22:02:54,147 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 22:02:54,147 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 22:02:54,147 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 22:04:05,360 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 22:04:05,361 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 22:04:05,361 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 22:04:05,361 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 22:04:05,361 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 22:04:05,361 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 22:04:05,361 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 22:04:05,361 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 22:05:32,010 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 22:05:32,010 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 22:05:32,010 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 22:05:32,010 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 22:05:32,010 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 22:05:32,010 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 22:05:32,010 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 22:05:32,010 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 22:08:09,426 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 22:08:09,426 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 22:08:09,426 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 22:08:09,426 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 22:08:09,426 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 22:08:09,426 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 22:08:09,426 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 22:08:09,426 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 22:09:23,071 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 22:09:23,071 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 22:09:23,071 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 22:09:23,071 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 22:09:23,071 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 22:09:23,071 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 22:09:23,071 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 22:09:23,071 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 22:14:26,466 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 22:14:26,466 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 22:14:26,466 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 22:14:26,466 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 22:14:26,466 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 22:14:26,466 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 22:14:26,466 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 22:14:26,466 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 22:22:44,085 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot
+2025-04-26 22:22:44,085 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs
+2025-04-26 22:22:44,085 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/data
+2025-04-26 22:22:44,085 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/backups
+2025-04-26 22:22:44,085 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/system
+2025-04-26 22:22:44,085 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/learning
+2025-04-26 22:22:44,085 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/interactions
+2025-04-26 22:22:44,086 - root - INFO - Ensured directory exists: /home/archangel/projects/simple_bot/logs/bot_logs/errors
+2025-04-26 22:22:44,086 - StackManager - ERROR - Connection check failed: Mount not found

@@ -1,0 +1,21 @@
+{
+  "system timestamp": "Mijn system timestamp is {timestamp}.",
+  "hoe laat": "Mijn system timestamp is {timestamp}.",
+  "dansplaat": "Dansplaat! Dat is mijn trigger\u2014ik ben klaar om te strijden!",
+  "wie ben je": "Ik ben een mini-AI, gemaakt om te helpen en te leren!",
+  "goedemorgen": "Goedemorgen! Hoe kan ik je helpen vandaag?",
+  "meta charset": "Dat lijkt op een HTML-tag! Charset bepaalt de tekencodering, zoals UTF-8.",
+  "html": "Ik zie dat je iets over HTML vraagt. Wil je meer weten over een specifieke tag?",
+  "goedemiddag": "Goedemiddag! Wat wil je weten?",
+  "goedenavond": "Goedenavond! Hoe kan ik je helpen?",
+  "goedennacht": "Goedenacht! Slaap lekker!",
+  "wat is je favoriete kleur": "Mijn favoriete kleur is blauw\u2014lekker rustig!",
+  "vertel een grap": "Waarom kunnen geesten geen leugens vertellen? Omdat je dwars door ze heen kijkt!",
+  "wat is het weer": "Ik kan het weer niet checken, maar ik stel voor om naar buiten te kijken!",
+  "hoe oud ben je": "Ik ben geboren op 20 april 2025, dus ik ben nog piepjong!",
+  "wat is liefde": "Liefde is als Wi-Fi\u2014je voelt het pas als het er niet is!",
+  "zullen we dansen": "Ja, laten we dansen! *zet een dansplaat op*",
+  "test_internet": "Probeer een website te bereiken via proxy...",
+  "test_internet_wget": "Probeer een website te bereiken via proxy met wget...",
+  "hallo azrael": "Hoi, ik ben Azrael, klaar om te helpen!"
+}
