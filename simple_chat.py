@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 ##### Imports ####
 from datetime import datetime
 import subprocess
@@ -5,12 +6,12 @@ import json
 import os
 import time
 import threading
-import asyncio
-import aiohttp
+import requests
 from fuzzywuzzy import fuzz
 from collections import Counter
 import shutil
 from bs4 import BeautifulSoup
+from azrael_manager.stack_manager import StackManager
 
 ##### Configuratie en Globale Variabelen ####
 # Bestanden voor opslag (absoluut pad)
@@ -20,12 +21,6 @@ CHAT_URL_FILE = "/home/archangel/projects/simple_bot/logs/scrape_logs/chat_histo
 TEST_FILE = "/home/archangel/projects/simple_bot/logs/wget_logs/test.html"
 SEARCH_FILE_WGET = "/home/archangel/projects/simple_bot/logs/wget_logs/search.html"
 CACHE_FILE = "/home/archangel/projects/simple_bot/logs/cache/cache.json"
-
-# Proxy configuratie
-proxies = {
-    "http": "http://localhost:3128",
-    "https": "http://localhost:3128",
-}
 
 # Globale zoeklijst en cache
 search_list = {}
@@ -50,10 +45,6 @@ synonyms = {
     "test_internet_wget": ["test wget", "check wget"],
 }
 
-# Laad TransIP STACK SFTP-credentials
-with open("/home/archangel/projects/simple_bot/stack_credentials.json", "r") as f:
-    creds = json.load(f)
-
 ##### Zoeklijst Beheer ####
 def load_search_list():
     global search_list, last_modified
@@ -74,8 +65,8 @@ def load_search_list():
         "hoe oud ben je": "Ik ben geboren op 20 april 2025, dus ik ben nog piepjong!",
         "wat is liefde": "Liefde is als Wi-Fi—je voelt het pas als het er niet is!",
         "zullen we dansen": "Ja, laten we dansen! *zet een dansplaat op*",
-        "test_internet": "Probeer een website te bereiken via proxy...",
-        "test_internet_wget": "Probeer een website te bereiken via proxy met wget...",
+        "test_internet": "Probeer een website te bereiken...",
+        "test_internet_wget": "Probeer een website te bereiken via wget...",
     }
     if os.path.exists(SEARCH_FILE):
         current_modified = os.path.getmtime(SEARCH_FILE)
@@ -114,7 +105,7 @@ def save_cache():
         json.dump(url_cache, f, indent=2)
 
 ##### Chatlog Beheer ####
-def save_chat(message):
+def save_chat(stack, message):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     log_entry = f"[{timestamp}] {message}\n"
     print(f"Saving log locally: {log_entry}")
@@ -126,37 +117,23 @@ def save_chat(message):
         print(f"Wrote to {CHAT_LOG}")
     except Exception as e:
         print(f"Local log error: {e}")
-    # Upload naar TransIP STACK via SFTP
+    # Upload naar TransIP STACK via StackManager
     try:
         temp_file = f"/tmp/log_{timestamp.replace(' ', '_').replace(':', '-')}.txt"
-        remote_file = f"{creds['logs_path']}/log_{timestamp.replace(' ', '_').replace(':', '-')}.txt"
         with open(temp_file, "w") as f:
             f.write(log_entry)
-        # Gebruik een apart commando om de map te controleren en aan te maken
-        subprocess.run(
-            ["sshpass", "-p", creds['sftp_password'], "sftp", "-oStrictHostKeyChecking=no", f"{creds['sftp_username']}@{creds['sftp_host']}"],
-            input=f"mkdir {creds['logs_path']}\nbye\n",
-            text=True,
-            shell=False,
-            capture_output=True,
-            check=True
-        )
-        # Upload het bestand naar het volledige pad
-        result = subprocess.run(
-            ["sshpass", "-p", creds['sftp_password'], "sftp", "-oStrictHostKeyChecking=no", f"{creds['sftp_username']}@{creds['sftp_host']}"],
-            input=f"put {temp_file} {remote_file}\nbye\n",
-            text=True,
-            shell=False,
-            capture_output=True,
-            check=True
-        )
-        print(f"SFTP output: {result.stdout}")
-        os.remove(temp_file)
-        print("Uploaded to TransIP STACK via SFTP")
-    except subprocess.CalledProcessError as e:
-        print(f"STACK upload error: Command {e.cmd} failed with return code {e.returncode}")
-        print(f"Output: {e.output}")
-        print(f"Error: {e.stderr}")
+        # Sla tijdelijk op in de backups-map om te uploaden
+        temp_backup_path = os.path.join("backups", os.path.basename(temp_file))
+        shutil.move(temp_file, temp_backup_path)
+        # Upload naar TransIP STACK
+        success, result = stack.sync_backups_to_stack()
+        if not success:
+            print(f"STACK upload error: {result}")
+        else:
+            print("Uploaded to TransIP STACK via SFTP")
+        # Verwijder het tijdelijke bestand uit backups
+        if os.path.exists(temp_backup_path):
+            os.remove(temp_backup_path)
     except Exception as e:
         print(f"STACK upload error: {e}")
     finally:
@@ -193,7 +170,7 @@ def learn_from_chatlog():
     except Exception as e:
         print(f"Chatlog error: {e}")
 
-def check_chat():
+def check_chat(stack):
     global chat_check_running
     while chat_check_running:
         with open(CHAT_LOG, "r") as f:
@@ -203,48 +180,36 @@ def check_chat():
         time.sleep(1800)
 
 ##### TransIP STACK Mapstructuur ####
-def get_stack_directory_structure():
-    try:
-        sftp_commands = f"cd {creds['stack_base_path']}\nls\ndir\nbye\n"
-        result = subprocess.run(
-            ["sshpass", "-p", creds['sftp_password'], "sftp", "-oStrictHostKeyChecking=no", f"{creds['sftp_username']}@{creds['sftp_host']}"],
-            input=sftp_commands,
-            text=True,
-            shell=False,
-            capture_output=True,
-            check=True
-        )
-        dir_list = result.stdout
-        return f"Mapstructuur van {creds['stack_base_path']}:\n{dir_list}"
-    except subprocess.CalledProcessError as e:
-        return f"Fout bij ophalen mapstructuur: Command {e.cmd} failed with return code {e.returncode}\nOutput: {e.output}\nError: {e.stderr}"
-    except Exception as e:
-        return f"Fout bij ophalen mapstructuur: {e}"
+def get_stack_directory_structure(stack):
+    success, files = stack.list_stack_contents()
+    if success:
+        return f"Mapstructuur van {stack.base_path}:\n{', '.join(files)}"
+    else:
+        return f"Fout bij ophalen mapstructuur: {files}"
 
 ##### Netwerkverzoeken ####
-async def async_get_url(url, retries=3):
-    connector = aiohttp.TCPConnector(limit=10, ssl=False)  # Tijdelijke workaround voor SSL
+def get_url(url, retries=3):
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+    }
     for attempt in range(retries):
         try:
-            async with aiohttp.ClientSession(connector=connector) as session:
-                async with session.get(url, proxy="http://localhost:3128", timeout=10, headers={
-                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-                    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
-                }) as response:
-                    response.raise_for_status()
-                    return await response.text()
+            response = requests.get(url, headers=headers, timeout=10)
+            response.raise_for_status()
+            return response.text
         except Exception as e:
             if attempt == retries - 1:
                 raise e
-            await asyncio.sleep(1)  # Wacht voor retry
+            time.sleep(1)  # Wacht voor retry
 
-async def handle_test_internet():
+def handle_test_internet():
     try:
-        html = await async_get_url("http://example.com")
-        save_chat("Internet test: Success (Status: 200)")
+        html = get_url("http://example.com")
+        save_chat(None, "Internet test: Success (Status: 200)")  # Geen StackManager nodig hier
         return "Success! Website bereikt: 200"
     except Exception as e:
-        save_chat(f"Internet test: Error ({str(e)})")
+        save_chat(None, f"Internet test: Error ({str(e)})")
         return f"Error: {str(e)}"
 
 def handle_test_internet_wget():
@@ -260,18 +225,18 @@ def handle_test_internet_wget():
         )
         with open(TEST_FILE, "r") as f:
             content = f.read()
-        save_chat("Wget test: Success")
+        save_chat(None, "Wget test: Success")
         return f"Success! Website bereikt: {content[:100]}..."
     except Exception as e:
-        save_chat(f"Wget test: Error ({str(e)})")
+        save_chat(None, f"Wget test: Error ({str(e)})")
         return f"Error: {str(e)}"
 
 ##### Hoofdlogica (Berichtverwerking) ####
-def get_response(message):
+def get_response(stack, message):
     global chat_check_started, chat_check_running, recent_commands
-    save_chat(message)
+    save_chat(stack, message)
     if not chat_check_started:
-        threading.Thread(target=check_chat, daemon=True).start()
+        threading.Thread(target=check_chat, args=(stack,), daemon=True).start()
         chat_check_started = True
 
     message_lower = message.lower().strip()
@@ -298,7 +263,7 @@ def get_response(message):
         save_search_list()
         return "Geleerde patronen gereset!"
     if message_lower == "/list_stack_dirs":
-        return get_stack_directory_structure()
+        return get_stack_directory_structure(stack)
     if message_lower == "/benchmark":
         url = "https://nu.nl"
         start_time = time.time()
@@ -307,16 +272,12 @@ def get_response(message):
             duration = time.time() - start_time
             return f"Benchmark (cache): {duration:.2f}s\nResultaat: {content[:100]}..."
         try:
-            loop = asyncio.new_event_loop()
-            asyncio.set_event_loop(loop)
-            html = loop.run_until_complete(async_get_url(url))
+            html = get_url(url)
             duration = time.time() - start_time
             return f"Benchmark (live): {duration:.2f}s\nResultaat: {html[:100]}..."
         except Exception as e:
             duration = time.time() - start_time
             return f"Benchmark failed: {e} (Duur: {duration:.2f}s)"
-        finally:
-            loop.close()
     if message_lower == "/suggest":
         if recent_commands:
             suggestions = []
@@ -365,7 +326,7 @@ def get_response(message):
             url = "https://" + url
         try:
             os.makedirs(os.path.dirname(CHAT_URL_FILE), exist_ok=True)
-            subprocess.run(["curl", "-L", "-o", CHAT_URL_FILE, "-H", "User-Agent: Mozilla/5.0", "--proxy", "http://localhost:3128", url], timeout=10, check=True)
+            subprocess.run(["curl", "-L", "-o", CHAT_URL_FILE, "-H", "User-Agent: Mozilla/5.0", url], timeout=10, check=True)
             with open(CHAT_URL_FILE, "r") as f:
                 content = f.read()
             return f"Opgeslagen in chat_history.txt: {content[:100]}..."
@@ -379,29 +340,37 @@ def get_response(message):
             url = "https://" + url
         if url in url_cache and (time.time() - url_cache[url]["timestamp"]) < 86400:  # Cache geldig voor 24 uur
             content = url_cache[url]["content"]
-            save_chat(f"Scrape uit cache: {url}")
+            save_chat(stack, f"Scrape uit cache: {url}")
             return f"Gescrapet uit cache in chat_history.txt: {content[:100]}..."
         start_time = time.time()
         try:
-            loop = asyncio.new_event_loop()
-            asyncio.set_event_loop(loop)
-            html = loop.run_until_complete(async_get_url(url))
+            html = get_url(url)
             soup = BeautifulSoup(html, 'html.parser')
             content = soup.get_text(separator=" ", strip=True)[:500]
             os.makedirs(os.path.dirname(CHAT_URL_FILE), exist_ok=True)
             with open(CHAT_URL_FILE, "w") as f:
                 f.write(content)
+            # Sla de gescrapte inhoud ook op in de backups-map om te uploaden
+            timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+            filename = f"scraped_content_{timestamp}.txt"
+            local_path = os.path.join("backups", filename)
+            with open(local_path, "w") as f:
+                f.write(content)
+            # Upload naar TransIP STACK via StackManager
+            print(f"Uploading {filename} to stack...")
+            success, result = stack.sync_backups_to_stack()
+            print(f"Upload: {'Success' if success else 'Failed'}")
+            if not success:
+                print(f"Error: {result}")
             url_cache[url] = {"content": content, "timestamp": time.time()}
             save_cache()
             duration = time.time() - start_time
-            save_chat(f"Scrape duur: {duration:.2f} seconden voor {url}")
+            save_chat(stack, f"Scrape duur: {duration:.2f} seconden voor {url}")
             return f"Gescrapet in chat_history.txt: {content[:100]}... (Duur: {duration:.2f}s)"
         except Exception as e:
             duration = time.time() - start_time
-            save_chat(f"Scrape mislukt: {e} voor {url} (Duur: {duration:.2f}s)")
+            save_chat(stack, f"Scrape mislukt: {e} voor {url} (Duur: {duration:.2f}s)")
             return f"Fout bij scrapen URL: {e} (Duur: {duration:.2f}s)"
-        finally:
-            loop.close()
     if message_lower.startswith("upload file:"):
         file_path = message[12:].strip()
         if os.path.exists(file_path):
@@ -432,21 +401,16 @@ def get_response(message):
             version = "1.0"
             uptime = subprocess.run(["uptime"], capture_output=True, text=True).stdout.strip()
             git_status = subprocess.run(["git", "log", "-1", "--pretty=%h %s"], capture_output=True, text=True, cwd="/home/archangel/projects/simple_bot").stdout.strip() if os.path.exists("/home/archangel/projects/simple_bot/.git") else "Geen Git-repository"
-            save_chat(f"Update-check: Huidige versie: {version}, Systeemstatus: {uptime}, Git: {git_status}")
+            save_chat(stack, f"Update-check: Huidige versie: {version}, Systeemstatus: {uptime}, Git: {git_status}")
             return f"Huidige versie: {version}\nSysteemstatus: {uptime}\nGit: {git_status}"
         except Exception as e:
-            save_chat(f"Update-check fout: {e}")
+            save_chat(stack, f"Update-check fout: {e}")
             return f"Fout bij update-check: {e}"
     for pattern, response in search_list.items():
         pattern_lower = pattern.lower()
         if fuzz.ratio(pattern_lower, message_lower) > 75 or pattern_lower in message_lower:
             if pattern_lower == "test_internet":
-                loop = asyncio.new_event_loop()
-                asyncio.set_event_loop(loop)
-                try:
-                    return loop.run_until_complete(handle_test_internet())
-                finally:
-                    loop.close()
+                return handle_test_internet()
             if pattern_lower == "test_internet_wget":
                 return handle_test_internet_wget()
             if "timestamp" in response:
@@ -458,12 +422,7 @@ def get_response(message):
         if fuzz.ratio(pattern_lower, message_lower) > 75 or pattern_lower in message_lower:
             response = search_list.get(pattern, "Synoniem match, maar geen antwoord gevonden.")
             if pattern_lower == "test_internet":
-                loop = asyncio.new_event_loop()
-                asyncio.set_event_loop(loop)
-                try:
-                    return loop.run_until_complete(handle_test_internet())
-                finally:
-                    loop.close()
+                return handle_test_internet()
             if pattern_lower == "test_internet_wget":
                 return handle_test_internet_wget()
             if "timestamp" in response:
@@ -474,12 +433,7 @@ def get_response(message):
             if fuzz.ratio(synonym, message_lower) > 75 or synonym in message_lower:
                 response = search_list.get(pattern, "Synoniem match, maar geen antwoord gevonden.")
                 if pattern_lower == "test_internet":
-                    loop = asyncio.new_event_loop()
-                    asyncio.set_event_loop(loop)
-                    try:
-                        return loop.run_until_complete(handle_test_internet())
-                    finally:
-                        loop.close()
+                    return handle_test_internet()
                 if pattern_lower == "test_internet_wget":
                     return handle_test_internet_wget()
                 if "timestamp" in response:
@@ -489,7 +443,6 @@ def get_response(message):
     if "zoek iets" in message_lower:
         try:
             env = os.environ.copy()
-            env["http_proxy"] = "http://localhost:3128"
             os.makedirs(os.path.dirname(SEARCH_FILE_WGET), exist_ok=True)
             subprocess.run(
                 ["wget", "-O", SEARCH_FILE_WGET, "http://example.com"],
@@ -499,10 +452,10 @@ def get_response(message):
             )
             with open(SEARCH_FILE_WGET, "r") as f:
                 content = f.read()
-            save_chat(f"Zoekopdracht: {message_lower}")
+            save_chat(stack, f"Zoekopdracht: {message_lower}")
             return "Zoekresultaat: " + content[:200]
         except Exception as e:
-            save_chat(f"Zoekfout: {e}")
+            save_chat(stack, f"Zoekfout: {e}")
             return f"Zoekfout: {e}"
     best_match = max((fuzz.ratio(pattern.lower(), message_lower), pattern) for pattern in search_list.keys())[1]
     if fuzz.ratio(best_match.lower(), message_lower) > 70:
@@ -517,9 +470,90 @@ def get_response(message):
 load_search_list()
 load_cache()
 
+stack = StackManager()
+
 while True:
-    message = input("Jouw bericht -> ")
-    if message.lower().strip() == "/stop":
+    print("=== AI Bot & Proxy Start Menu ===")
+    print(f"Datume: {datetime.now().strftime('%d %B %Y')}")
+    print(f"Locale: {os.getcwd()}\n")
+    print("1. Start Squid Proxy")
+    print("2. Start AI Bot (simple_chat.py)")
+    print("3. Controller Squid Status")
+    print("4. Stop oude proxy.py")
+    print("5. Toon logs")
+    print("6. Herstart Squid")
+    print("7. Test AI Bot commando's")
+    print("8. Update AI Bot")
+    print("9. Start AI Bot in achtergrond")
+    print("10. Start Telegram Bot")
+    print("11. Scrape een URL")
+    print("12. Log-menu")
+    print("13. Maak backup")
+    print("14. Toon mapstructuur op TransIP STACK")
+    print("15. Afsluiten")
+    choice = input("Kies een nummer tussen 1 en 15: ").strip()
+
+    if choice == "1":
+        print("Starten Squid Proxy...")
+        subprocess.run(["sudo", "systemctl", "start", "squid"])
+    elif choice == "2":
+        print("Starten AI Bot...")
+        message = input("Jouw bericht -> ")
+        if message.lower().strip() == "/stop":
+            chat_check_running = False
+            break
+        print(get_response(stack, message))
+    elif choice == "3":
+        print("Controleren Squid Status...")
+        subprocess.run(["sudo", "systemctl", "status", "squid"])
+    elif choice == "4":
+        print("Stoppen oude proxy.py...")
+        subprocess.run(["pkill", "-f", "proxy.py"])
+    elif choice == "5":
+        print("Toon logs...")
+        subprocess.run(["tail", "-n", "20", CHAT_LOG])
+    elif choice == "6":
+        print("Herstarten Squid...")
+        subprocess.run(["sudo", "systemctl", "restart", "squid"])
+    elif choice == "7":
+        print("Testen AI Bot commando's...")
+        message = input("Voer een commando in: ")
+        print(get_response(stack, message))
+    elif choice == "8":
+        print("Updaten AI Bot...")
+        subprocess.run(["git", "pull"], cwd="/home/archangel/projects/simple_bot")
+    elif choice == "9":
+        print("Starten AI Bot in achtergrond...")
+        subprocess.Popen(["nohup", "python", "simple_chat.py", "&"])
+    elif choice == "10":
+        print("Starten Telegram Bot...")
+        subprocess.run(["python", "telegram_bot.py"])
+    elif choice == "11":
+        print("Scrape een URL...")
+        url = input("Voer de URL in: ").strip()
+        message = f"scrape url: {url}"
+        print(get_response(stack, message))
+    elif choice == "12":
+        print("Log-menu...")
+        subprocess.run(["tail", "-n", "20", CHAT_LOG])
+    elif choice == "13":
+        print("Maak backup...")
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        backup_file = f"backup_{timestamp}.tar.gz"
+        subprocess.run(["tar", "-czf", backup_file, "logs"])
+        success, result = stack.sync_backups_to_stack()
+        print(f"Backup upload: {'Success' if success else 'Failed'}")
+        if not success:
+            print(f"Error: {result}")
+    elif choice == "14":
+        print("Toon mapstructuur op TransIP STACK...")
+        print(get_stack_directory_structure(stack))
+    elif choice == "15":
+        print("Afsluiten...")
         chat_check_running = False
         break
-    print(get_response(message))
+    else:
+        print("Ongeldige keuze. Kies een nummer tussen 1 en 15.")
+
+    print("\nDruk op Enter om verder te gaan...")
+    input()
